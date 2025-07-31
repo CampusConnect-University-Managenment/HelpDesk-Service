@@ -68,11 +68,11 @@ public class RequestServiceImpl implements RequestService {
         return requestRepository.findByStatus(status);
     }
 
-    @Override
-    public List<Request> getRequestsByPriority(String priority) {
-        return requestRepository.findByPriority(priority);
-    }
-
+//    @Override
+//    public List<Request> getRequestsByPriority(String priority) {
+//        return requestRepository.findByPriority(priority);
+//    }
+//
 
 
 }

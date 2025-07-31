@@ -11,7 +11,7 @@ public interface RequestRepository extends MongoRepository<Request, String> {
 
     List<Request> findByRegisterNumber(String registerNumber);
     List<Request> findByStatus(String status);
-    List<Request> findByPriority(String priority); // Fetch by priority
+//    List<Request> findByPriority(String priority); // Fetch by priority
 
 
 }

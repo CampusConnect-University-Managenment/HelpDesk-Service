@@ -11,7 +11,7 @@ public interface RequestService {
     List<Request> getAllRequests(); // Admin view
     Request markRequestAsCompleted(String requestId);
     List<Request> getRequestsByStatus(String status);
-    List<Request> getRequestsByPriority(String priority);
+//    List<Request> getRequestsByPriority(String priority);
     Request markRequestAsInProgress(String requestId);
 
 }
